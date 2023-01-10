@@ -1,0 +1,28 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+    <div class="scorecard">    
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h1 id="leftscore">0</h1>
+                <button id ="one" onclick="plusoneLeft()">+1</button>
+                <button id="two" onclick="plustwoLeft()">+2</button>
+                <button id="three" onclick="plusthreeLeft()">+3</button>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <h1 id="rightscore">0</h1>
+                <button id="oneR" onclick="plusoneRight()">+1</button>
+                <button id="twoR" onclick="plustwoRight()">+2</button>
+                <button id="threeR" onclick="plusthreeRight()">+3</button>
+            </div>
+        </div> 
+        <button id="reset" onclick="reset()">reset</button>
+        <h3 id="leader"></h3>      
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

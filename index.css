@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+}
+
+@font-face {
+    font-family: cursed;
+    src: url("Cursed.ttf");
+}
+
+.scorecard {
+    background-image : url("bb.jpeg");
+    background-size: cover;
+}
+.container {
+    /* margin: auto auto; */
+    display: flex;
+    margin: auto auto;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    background: #1B244A;
+    width: 500px;
+    height: 300px;
+    position: relative; 
+    border-radius: 50px;
+    border: 6px solid white;
+    
+}
+
+h1 {
+    background: blue;
+    margin:10px 0px 15px 0px;
+    font-size:90px;
+    font-family: cursed;
+    background: #080001;
+    border-radius: 5px;
+    color: #F94F6D;
+}
+
+h3 {
+    margin: 30px 0px 0px 0px;
+    font-size:40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+button {
+    font-family: cursed;
+    font-size:18px;
+    width: 45px;
+    height:45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px; 
+    background: #1B244A;
+    color: white;   
+}
+
+#reset {
+    font-family: cursed;
+    font-size:20px;
+    width: 100px;
+    height:45px;
+    border: 2px solid #9AABD8;
+    border-radius: 10px; 
+    background: #1B244A;
+    color: white; 
+}
